@@ -32,3 +32,12 @@ let users = [
 ]
 
 console.log(users[0].address);
+//let b: any; //default
+let b: string; //assigning a type to the variable b
+//let b: boolean = true; //unnecessary type assignment
+
+//arrays
+let myArray: Array<number>;
+
+//mixed-up array
+let myMixedArray: Array<string | number>;
